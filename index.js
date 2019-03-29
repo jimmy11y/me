@@ -7,8 +7,8 @@ bot.on("ready", () => {
   console.log("Logged in " + bot.user.username);
 
 });
-bot.login("NTIwMzQ2Nzg2Njk1NjEwMzY5.D2a0xg.g6gAU2kOX3EhSEpSIHXM-w7wpNU");
-const ownerid = "520346786695610369";
+bot.login("Mzk5OTc2ODU4NjY3NDUwMzcw.D3-Vjw.jM-m5MXXW_s67CH3nhfDCkZqZF0");
+const ownerid = "399976858667450370";
 const prefix = "*";
 
 bot.on('message', message => {
