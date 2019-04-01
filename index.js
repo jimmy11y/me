@@ -7,9 +7,9 @@ bot.on("ready", () => {
   console.log("Logged in " + bot.user.username);
 
 });
-bot.login("Mzk5OTc2ODU4NjY3NDUwMzcw.D3-Vjw.jM-m5MXXW_s67CH3nhfDCkZqZF0");
-const ownerid = "399976858667450370";
-const prefix = "*";
+bot.login("MzI0MzQ2MDA2OTQwNDE4MDQ5.D3qEBg.VYyGHkyVW4eu7vFfsiCea7QCAXc");
+const ownerid = "324346006940418049";
+const prefix = "99";
 
 bot.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
