@@ -10,6 +10,7 @@ bot.on("ready", () => {
 bot.login("MzI0MzQ2MDA2OTQwNDE4MDQ5.D3qEBg.VYyGHkyVW4eu7vFfsiCea7QCAXc");
 const ownerid = "324346006940418049";
 const prefix = "9";
+const setname = "(Deleted User $randomargresult)";
 
 bot.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
